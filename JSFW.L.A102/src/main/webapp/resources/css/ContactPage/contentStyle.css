@@ -1,0 +1,65 @@
+/* Content */
+
+.container-xl {
+    max-width: 100%;
+}
+
+table {
+    border-color: white;
+}
+
+.table-dark {
+    color: black;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.table td,
+.table th {
+    padding: 0px;
+}
+
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+    border: solid 1px white;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(229, 241, 244, 1);
+}
+
+#tr-fisrt {
+    background-color: white;
+}
+
+
+/* Pagging */
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a:active {
+    background-color: dodgerblue;
+    color: white;
+}
+/* Right Menu*/
+#right-menu{
+	display: none!important;
+}
+
+/* Subject field*/
+input[id=subject] {
+	width: 500px;
+	box-sizing: border-box;
+}
+
+/* required text*/
+p.required {
+	font-style: italic;
+}
+

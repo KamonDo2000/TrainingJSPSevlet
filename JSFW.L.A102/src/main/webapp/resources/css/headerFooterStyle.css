@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+/*mobile style*/
+
+.mobile-style {
+    display: none;
+}
+
+/* Blog */
+
+#blog {
+    height: 51px;
+    border-top: solid 3px white;
+}
+
+/* Top Menu */
+
+.navbar-brand {
+    display: none;
+    padding-left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #65A5CC;
+    background-color: white;
+}
+
+.bg-light {
+    background-color: #65A5CC!important;
+    height: 26px;
+}
+/* footer */
+
+footer {
+    text-align: center;
+    height: 77px;
+   	position: absolute;
+   	bottom: 0;
+   	width: 100%;
+}

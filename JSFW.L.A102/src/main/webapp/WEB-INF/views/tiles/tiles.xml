@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="index" template="/WEB-INF/views/template/layout.jsp">
+  	<put-attribute name="head" value="/WEB-INF/views/template/head.jsp" />
+    <put-attribute name="title" value="Home" />
+    <put-attribute name="header" value="/WEB-INF/views/template/Header.jsp" />
+    <put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/template/Footer.jsp" />
+    <put-attribute name="js" value="/WEB-INF/views/template/Footer.jsp" />
+  </definition>
+  <definition name="AboutPage" extends="index">
+    <put-attribute name="title" value="About" />
+    <put-attribute name="body" value="/WEB-INF/views/AboutPage.jsp" />
+  </definition>
+  <definition name="ManagePostPage" extends="index">
+    <put-attribute name="title" value="Manage Post" />
+    <put-attribute name="body" value="/WEB-INF/views/ManagePostPage.jsp" />
+  </definition>
+  <definition name="ContactPage" extends="index">
+    <put-attribute name="title" value="Contact" />
+    <put-attribute name="body" value="/WEB-INF/views/ContactPage.jsp" />
+  </definition>
+  <definition name="CreatePostPage" extends="index">
+    <put-attribute name="title" value="Create Post" />
+    <put-attribute name="body" value="/WEB-INF/views/CreatePostPage.jsp" />
+  </definition>
+  <definition name="LoginPage" extends="index">
+    <put-attribute name="title" value="Login" />
+    <put-attribute name="body" value="/WEB-INF/views/LoginPage.jsp" />
+  </definition>
+  <definition name="ManageCommentPage" extends="index">
+    <put-attribute name="title" value="Manage Post" />
+    <put-attribute name="body" value="/WEB-INF/views/ManageCommentPage.jsp" />
+  </definition>
+   <definition name="EditPostPage" extends="index">
+    <put-attribute name="title" value="Manage Post" />
+    <put-attribute name="body" value="/WEB-INF/views/EditPostPage.jsp" />
+  </definition>
+</tiles-definitions>

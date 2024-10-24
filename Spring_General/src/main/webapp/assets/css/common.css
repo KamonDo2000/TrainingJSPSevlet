@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif !important;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: unset;
+  color: inherit;
+}
+a:hover {
+  text-decoration: unset;
+  color: inherit;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.row {
+  padding: 0;
+  margin: 0px;
+}
+.max-width {
+  max-width: 1360px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ============================================================= */
+
+.bg-head {
+  background-color: #435d7d !important;
+}
+
+/* Data table */
+
+.tableFixHead {
+  overflow-y: auto; /* make the table scrollable if height is more than 200 px  */
+  height: 300px;
+  width: 100%;
+}
+
+.tableFixHead thead th {
+  position: sticky; /* make the table heads sticky */
+  top: 0px; /* table head will be placed from the top of the table and sticks to it */
+}
+
+th {
+  background: white;
+  border: none !important;
+}
+
+tbody#table-content td {
+  text-align: center;
+}
+
+tr th,
+td {
+  text-align: center;
+}
+
+table tbody tr:last-child,
+table tbody tr:last-child td {
+  border-bottom: unset !important;
+}
+
+.trash {
+  color: #ffc720;
+  cursor: pointer;
+}
+.pencil {
+  color: #f5564a;
+  cursor: pointer;
+}
+
+/* pagination */
+.bg-unset {
+  background-color: unset !important;
+  border: none;
+}
+
+.bg-active {
+  background-color: #03a9f4 !important;
+  border: none;
+  border-radius: 2px;
+}
+
+/* ===================================================Footer====================================== */

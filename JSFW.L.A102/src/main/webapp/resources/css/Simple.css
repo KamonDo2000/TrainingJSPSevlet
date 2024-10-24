@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+}
+
+
+/*mobile style*/
+
+.mobile-style {
+    display: none;
+}
+
+
+/* Blog */
+
+#blog {
+    height: 51px;
+    border-top: solid 3px white;
+}
+
+
+/* Top Menu */
+
+.navbar-brand {
+    display: none;
+    padding-left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #65A5CC;
+    background-color: white;
+}
+
+.bg-light {
+    background-color: #65A5CC!important;
+    height: 26px;
+}
+
+
+/* Content */
+
+.container-xl {
+    max-width: 100%;
+}
+
+table {
+    border-color: white;
+}
+
+.table-dark {
+    color: black;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.table td,
+.table th {
+    padding: 0px;
+}
+
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+    border: solid 1px white;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(229, 241, 244, 1);
+}
+
+#tr-fisrt {
+    background-color: white;
+}
+
+
+/* Pagging */
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a:active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/*Right Menu*/
+
+#right-menu {
+    display: block;
+    padding: 15px;
+}
+
+.demo,
+.tags,
+.recent-comment {
+    margin-bottom: 15px;
+    background-color: rgba(239, 253, 255, 1);
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.demo div:nth-of-type(1),
+.tags div:nth-of-type(1),
+.recent-comment div:nth-of-type(1) {
+    font-weight: bold;
+    background-color: rgba(183, 214, 231, 1);
+    color: #6FACCF;
+}
+
+.demo div a,
+.tags div a,
+.recent-comment div a {
+    text-decoration: underline;
+    color: blue;
+}
+
+#btn-open-right-menu,
+#btn-close-right-menu {
+    display: none;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    height: 77px;
+    margin: 10px 20px;
+    border-top: solid 1px #9ACAE0;
+}

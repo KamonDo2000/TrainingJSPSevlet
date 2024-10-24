@@ -1,0 +1,32 @@
+/*Right Menu*/
+#right-menu {
+	display: block;
+	padding: 15px;
+}
+
+.demo, .tags, .recent-comment {
+	margin-bottom: 15px;
+	background-color: rgba(239, 253, 255, 1);
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.demo div:nth-of-type(1), .tags div:nth-of-type(1), .recent-comment div:nth-of-type(1)
+	{
+	font-weight: bold;
+	background-color: rgba(183, 214, 231, 1);
+	color: #6FACCF;
+}
+
+.demo div a, .tags div a, .recent-comment div a {
+	text-decoration: underline;
+	color: blue;
+}
+
+#btn-open-right-menu, #btn-close-right-menu {
+	display: none;
+}
+
+.fa-bars {
+	border-radius: 2px;
+}

@@ -1,0 +1,129 @@
+/*Responesive*/
+@media ( max-width : 480px) {
+	/*container*/
+	.mt-3 {
+		min-height: 520px;
+		overflow: auto;
+	}
+	/*mobile style*/
+	.mobile-style, .navbar-brand, #btn-open-right-menu,
+		#btn-close-right-menu {
+		display: block;
+	}
+	.bg-light {
+		height: auto;
+	}
+	.row-content {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.navbar-light .navbar-toggler {
+		color: white;
+	}
+	/* Right menu*/
+	#right-menu {
+		display: none;
+		flex: 0 0 55%;
+		max-width: 55%;
+		position: fixed;
+		z-index: 1001;
+		background-color: white;
+		right: 0;
+		padding: 0;
+		top: 107px;
+		height:100%;
+	}
+	#btn-open-right-menu {
+		z-index: 1000;
+		position: fixed;
+		right: 0;
+		top: 107px;
+		border: solid 1px black;
+		border-radius: 5px;
+		padding: 0 5px;
+	}
+	#btn-close-right-menu {
+		float: right;
+	}
+	/*Table-desktop*/
+	.table-desktop {
+		display: none;
+	}
+	/*Create Post*/
+	input {
+		columns: auto;
+		width: 100% !important;
+		margin-top: 2px;
+	}
+	input[id=remember] {
+		width: auto !important;
+	}
+	/**/
+	textarea {
+		columns: auto;
+		width: 100%;
+		margin-top: 2px;
+	}
+	/*footer*/
+	footer {
+		position: inherit;
+	}
+	/*Dialog*/
+	#dlgbox {
+		width: 300px;
+		left: 15%;
+	}
+}
+
+@media ( min-width : 667px) and ( max-width: 990px) {
+	#right-menu {
+		display: block !important;
+	}
+	.navbar-brand {
+		display: block;
+	}
+	.bg-light {
+		height: auto;
+	}
+	/*Create Post*/
+	/*Title*/
+	input[id=title] {
+		columns: auto;
+		width: 100%;
+	}
+	/**/
+	textarea {
+		columns: auto;
+		width: 100%;
+		margin-top: 2px;
+	}
+	/**/
+	input[id=tags] {
+		width: 100%;
+	}
+	/*footer*/
+	footer {
+		position: inherit;
+	}
+}
+
+@media ( min-width : 1024px) {
+	.bg-light {
+		height: 26px;
+	}
+	.navbar-brand {
+		display: none;
+	}
+	#right-menu {
+		display: block !important;
+	}
+	/**/
+	textarea {
+		margin-top: 2px;
+	}
+	/**/
+	input {
+		margin-top: 4px;
+	}
+}
+}
